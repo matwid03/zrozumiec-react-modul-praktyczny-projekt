@@ -1,0 +1,22 @@
+.categoryMenu {
+	width: 100%;
+	/* max-width: 100rem; */
+	background-color: var(--color-theme-main);
+}
+
+.categoryMenu ul {
+	width: 100%;
+	max-width: 100rem;
+	margin: 0 auto;
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.categoryMenu ul li a {
+	color: var(--color-white);
+}
+
+.categoryMenu ul li a:global(.active) {
+	text-decoration: underline;
+}
